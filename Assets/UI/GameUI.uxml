@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="Vidas: 3" name="VidasTx"/>
+    <ui:Label text="Puntos: 0" name="PuntosTx" style="white-space: pre;"/>
+    <ui:Label text="Has perdido" name="HasPerdido"/>
+    <ui:Label text="Puntuación: " name="Puntuacion"/>
+    <ui:Label text="Mejor puntuación: " name="MejorPuntuacion"/>
+    <ui:Button text="Volver al menú" name="btnVolverMenu"/>
+</ui:UXML>

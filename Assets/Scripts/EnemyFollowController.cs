@@ -5,9 +5,10 @@ public class EnemyFollowController : MonoBehaviour
     private Camera mainCam;
     public float speed = 2F;
 
-    public Transform objetoObjetivo = GameObject.Find("Circle MovNuevo").transform;
+    public Transform objetoObjetivo;
     void Start()
     {
+        objetoObjetivo = GameObject.Find("Jugador").transform;
         mainCam = Camera.main;
     }
     void KeepInsideCamera()

@@ -7,8 +7,6 @@ public class EnemyController : MonoBehaviour
     public float speed = 0.5F;
     private float horizontal = 0F;
     private float vertical = 0F;
-    private float timer = 0F;
-    private float siguiente = 0F;
     void Start()
     {
         mainCam = Camera.main;
